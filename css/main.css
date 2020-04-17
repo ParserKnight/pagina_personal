@@ -1,0 +1,20 @@
+
+.personal{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#title{
+    font-size:48
+}
+
+.separator{
+    background-color: grey;
+    height:1px;
+    width:100px;
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
+.contenido{
+}
