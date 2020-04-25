@@ -1,3 +1,13 @@
+@font-face {
+    font-family:"grotesk-black";
+    src: url("fonts/HKGrotesk-Black.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family:"grotesk-bold";
+    src: url("fonts/HKGrotesk-Bold.ttf") format("truetype");
+  }
+
 
 .personal{
     margin-top:50px;
@@ -5,7 +15,10 @@
 }
 
 #title{
-    font-size:48
+    padding-top: 125px;
+    font-size:48;
+    font-family:"grotesk-black";
+    line-height:50px;
 }
 
 .separator{
@@ -17,4 +30,20 @@
 }
 
 .contenido{
+    color:#717171;
+    size: 18;
+    font-family: "grotesk-bold";
+}
+
+
+#deloitte{
+    color:#127d09 ;
+}
+
+.link-redes{
+    font-family: "grotesk-bold";
+    font-size: 24;
+    color: #4E4E4E;
+    padding-bottom: 55px;
+    padding-top: 30px;
 }
