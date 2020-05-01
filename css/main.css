@@ -11,14 +11,15 @@
 
 .personal{
     margin-top:50px;
+    padding-bottom:300;
     margin-bottom:50px;
 }
 
 #title{
     padding-top: 125px;
-    font-size:48;
+    font-size:34;
     font-family:"grotesk-black";
-    line-height:50px;
+    line-height:40px;
 }
 
 .separator{
@@ -30,14 +31,14 @@
 }
 
 .contenido{
-    color:#717171;
+    color:#2c2c2c;
     size: 18;
-    font-family: "grotesk-bold";
+    font-family: "Roboto";
 }
 
 
 #deloitte{
-    color:#127d09 ;
+    color:#86BC25 ;
 }
 
 .link-redes{
@@ -46,4 +47,38 @@
     color: #4E4E4E;
     padding-bottom: 55px;
     padding-top: 30px;
+}
+
+.logo{
+    width:100%;
+
+}
+
+.logo-pc{
+    width:75px;
+}
+
+.logos-row{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.titulo_pregunta{
+    color:#717171;
+    size: 18;
+    font-family: "Roboto";
+}
+
+.margin{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:55px;
+    margin-bottom: 55px;
+}
+
+.mail_me{
+    background-color:rgb(184, 255, 51) ;
+    border-radius: 5px;
+    color:black;
+    opacity: 0.4;
 }
