@@ -1,11 +1,25 @@
+@font-face {
+    font-family:"grotesk-black";
+    src: url("fonts/HKGrotesk-Black.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family:"grotesk-bold";
+    src: url("fonts/HKGrotesk-Bold.ttf") format("truetype");
+  }
+
 
 .personal{
     margin-top:50px;
+    padding-bottom:300;
     margin-bottom:50px;
 }
 
 #title{
-    font-size:48
+    padding-top: 125px;
+    font-size:34;
+    font-family:"grotesk-black";
+    line-height:40px;
 }
 
 .separator{
@@ -17,4 +31,66 @@
 }
 
 .contenido{
+    color:#2c2c2c;
+    size: 18;
+    font-family: "Roboto";
+}
+
+
+#deloitte{
+    color:#86BC25 ;
+}
+
+.link-redes{
+    font-family: "grotesk-bold";
+    font-size: 24;
+    color: #4E4E4E;
+    padding-bottom: 55px;
+    padding-top: 30px;
+}
+
+.logo{
+    width:100%;
+
+}
+
+.logo-pc{
+    width:75px;
+}
+
+.logos-row{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.titulo_pregunta{
+    color:#717171;
+    size: 18;
+    font-family: "Roboto";
+}
+
+.margin{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:55px;
+    margin-bottom: 55px;
+}
+
+.mail_me{
+    background-color:rgb(228, 252, 183) ;
+    border-radius: 5px;
+    color:black;
+    
+}
+
+.qr{
+    width:60%;
+}
+
+.custom{
+    margin-left:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:5px;
+    
 }
