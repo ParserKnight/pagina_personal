@@ -77,8 +77,20 @@
 }
 
 .mail_me{
-    background-color:rgb(184, 255, 51) ;
+    background-color:rgb(228, 252, 183) ;
     border-radius: 5px;
     color:black;
-    opacity: 0.4;
+    
+}
+
+.qr{
+    width:60%;
+}
+
+.custom{
+    margin-left:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:5px;
+    
 }
