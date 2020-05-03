@@ -11,8 +11,8 @@
 
 .personal{
     margin-top:50px;
-    padding-bottom:300;
-    margin-bottom:50px;
+    padding-bottom:125px;
+    margin-bottom:25px;
 }
 
 #title{
@@ -34,6 +34,7 @@
     color:#2c2c2c;
     size: 18;
     font-family: "Roboto";
+    margin-bottom: 0px;
 }
 
 
@@ -50,23 +51,20 @@
 }
 
 .logo{
-    width:100%;
+    width:152px;
 
 }
 
 .logo-pc{
-    width:75px;
+    width:55px;
 }
 
-.logos-row{
-    padding-top:50px;
-    padding-bottom:50px;
-}
 
 .titulo_pregunta{
     color:#717171;
     size: 18;
     font-family: "Roboto";
+    padding-bottom:35px
 }
 
 .margin{
@@ -92,5 +90,31 @@
     margin-top:5px;
     margin-bottom:5px;
     margin-right:5px;
+    font-size: 12px;
     
+}
+
+.p_custom{
+    margin-bottom:0px;
+    padding-left:15px;
+    color:rgba(0, 90, 0, 0.966);
+}
+
+#correo-icon{
+    width:20px;
+}
+
+a{
+    color:inherit;
+    text-decoration: none; /* no underline */
+  }
+
+a:hover {
+    color:inherit;
+    text-decoration: none; /* no underline */
+}
+
+.footer{
+    font-size: 12px;
+    opacity: 0.5;
 }
